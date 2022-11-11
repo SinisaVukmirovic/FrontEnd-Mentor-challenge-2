@@ -1,3 +1,27 @@
 @media (min-width: 1440px) {
-    
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+
+    }
+
+    ul {
+        all: unset;
+        list-style: none;
+
+        display: flex;
+        background-color: var(--off-white);
+    }
+
+    ul li {
+        margin: 0 .5rem;
+    }
 }

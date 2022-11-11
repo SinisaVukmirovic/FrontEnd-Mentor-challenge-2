@@ -1,3 +1,6 @@
+@import './blocks.css';
+@import './desktop-view.css';
+
 @font-face {
     font-family: Inter-Regular;
     src: url(../assets/fonts/static/Inter-Regular.ttf);
@@ -31,6 +34,7 @@
 }
 
 html {
+    font-family: Inter-Regular;
     font-size: 15px;
 }
 
