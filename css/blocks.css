@@ -8,13 +8,14 @@ header {
     align-items: center;
 
     position: relative;
-}
-    ul {
-        list-style: none;
 
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+}
+    .nav-links {
         position: absolute;
         top: -1.5rem;
-        right: -85%;
+        right: -100%;
         /* right: -1.5rem; */
         height: 100vh;
         width: 66vw;
@@ -25,14 +26,14 @@ header {
         background-color: var(--off-white);
         transition: all 500ms ease-in-out;
     }
-        ul.open {
+        .nav-links.open {
             right: -1.5rem;
         }
 
-        ul li {
+        .nav-links li {
             margin: .75rem 0;
         }
-        ul a {
+        .nav-links a {
             text-decoration: none;
             color: inherit;
             font-size: 1.25rem;
@@ -40,6 +41,12 @@ header {
     .menu-btn {
         position: absolute;
         
-        top: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
         right: 0;
     }
+
+main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}

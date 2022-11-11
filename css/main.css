@@ -38,3 +38,11 @@ html {
     font-size: 15px;
 }
 
+ul.nav-links {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
