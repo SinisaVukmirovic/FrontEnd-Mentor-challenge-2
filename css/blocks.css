@@ -18,11 +18,9 @@ header {
 
         display: flex;
         flex-direction: column;
-        padding: 20vh 0 0 1rem;
+        padding: 20vh 0 0 1.5rem;
         background-color: var(--off-white);
         transition: all 500ms ease-in-out;
-
-        background-color: red;
     }
         .nav-links.open {
             right: -1.5rem;
@@ -42,4 +40,13 @@ header {
         top: 50%;
         transform: translateY(-50%);
         right: 0;
+    }
+
+/* main {
+
+} */
+    main .btn {
+        padding: .5rem 1rem;
+        background-color: var(--soft-red);
+        color: var(--off-white);
     }

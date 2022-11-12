@@ -59,6 +59,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+#### When and where do we use a link or a button?
+##### Use buttons when the user- action causes a change in either back-end or the front-end of the website. For example, submitting a form, opening a pop-up or a modal or a pannel on the same page.
+##### Use links when the user-action doesn't affect the website at all.
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:

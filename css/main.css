@@ -44,7 +44,12 @@ html, body {
 
 body {
     padding: 1.5rem;
-    /* overflow-x: hidden; */
+    background-color: var(--grayish-blue);
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
 }
 
 ul.nav-links {
@@ -56,7 +61,16 @@ a {
     color: inherit;
 }
 
-img {
-    width: 100%;
-    object-fit: cover;
+button {
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Inter-Bold';
+}
+
+p {
+    color: var(--dark-grayish-blue);
 }
