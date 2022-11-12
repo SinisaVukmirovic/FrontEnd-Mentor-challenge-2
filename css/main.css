@@ -38,6 +38,15 @@ html {
     font-size: 15px;
 }
 
+html, body {
+    overflow-x: hidden; 
+}
+
+body {
+    padding: 1.5rem;
+    /* overflow-x: hidden; */
+}
+
 ul.nav-links {
     list-style: none;
 }
@@ -45,4 +54,9 @@ ul.nav-links {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
 }
