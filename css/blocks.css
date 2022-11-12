@@ -42,11 +42,19 @@ header {
         right: 0;
     }
 
-/* main {
 
-} */
-    main .btn {
+    .btn {
         padding: .5rem 1rem;
         background-color: var(--soft-red);
         color: var(--off-white);
+    }
+
+aside {
+    background-color: var(--very-dark-blue);
+    padding: 1.5rem;
+}
+    .aside-title {
+        color: var(--soft-orange);
+        text-transform: uppercase;
+        font-size: 2rem;
     }
