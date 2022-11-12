@@ -43,8 +43,8 @@ html, body {
 }
 
 body {
-    padding: 1.5rem;
-    background-color: var(--grayish-blue);
+    padding: 1rem;
+    /* background-color: var(--grayish-blue); */
 }
 
 img {
@@ -68,9 +68,39 @@ button {
 }
 
 h1 {
-    font-family: 'Inter-Bold';
+    font-family: 'Inter-ExtraBold';
+    font-size: 2.75rem;
+    line-height: 1;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-family: Inter-ExtraBold;
+    font-size: 1.2rem;
+    color: var(--very-dark-blue);
+    margin: 1rem 0;
+}
+
+h3 {
+    font-family: Inter-Bold;
+    font-size: 1.25rem;
+    color: var(--off-white);
 }
 
 p {
     color: var(--dark-grayish-blue);
+    line-height: 1.5;
+}
+
+hr {
+    background-color: var(--dark-grayish-blue);
+    border-color: var(--dark-grayish-blue);
+    margin: 2rem 0;
+}
+
+p.numb {
+    font-family: Inter-Bold;
+    font-size: 2rem;
+    color: var(--grayish-blue);
+    line-height: 1;
 }
