@@ -13,7 +13,7 @@ const changeIcon = () => {
     if (menuBtn.classList.contains('open')) {
         setTimeout(() => {
             return menuBtnIcon.setAttribute('src', './assets/images/icon-menu-close.svg');
-        }, 200);
+        }, 150);
     } 
     return menuBtnIcon.setAttribute('src', './assets/images/icon-menu.svg');
 }

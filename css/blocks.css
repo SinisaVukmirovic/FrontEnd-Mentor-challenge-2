@@ -55,34 +55,45 @@ header {
         letter-spacing: 5px;
     }
 
-aside {
-    background-color: var(--very-dark-blue);
-    margin: 2rem 0;
-    padding: 1.5rem;
-}
-    .aside-title {
-        color: var(--soft-orange);
-        font-family: Inter-Bold;
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-    aside h3 {
-        line-height: 2;
-        margin-bottom: .5rem;
-    }
-    aside p {
-        line-height: 1.5;
-        color: var(--grayish-blue);
-    }
-
 main {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 2rem;
     padding: 1rem 0;
 }
-    main section {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-gap: 1.5rem;
+    .headline .title h1 {
         margin: 1rem 0;
     }
+    .headline .title button {
+        margin-bottom: 2rem;
+    }
+    aside {
+        background-color: var(--very-dark-blue);
+        margin: 2rem 0;
+        padding: 1.5rem;
+    }
+        .aside-title {
+            color: var(--soft-orange);
+            font-family: Inter-Bold;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        aside h3 {
+            line-height: 2;
+            margin-bottom: .5rem;
+        }
+        aside p {
+            line-height: 1.5;
+            color: var(--grayish-blue);
+        }
+
+    /* .articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+        .articles article {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 1.5rem;
+            margin: 1rem 0;
+        }
