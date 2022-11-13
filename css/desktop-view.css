@@ -4,21 +4,21 @@
     }
 
     header {
-        margin: 3.5rem 0 1.5rem;
+        margin: 3.5rem 0 2.5rem;
         padding: .5rem 0;
     }
         .logo img {
-            width: 90%;
+            width: 120%;
         }
         .nav-links {
             all: unset;
             display: flex;
         }
         .nav-links li {
-            margin-left: 2.5rem;
+            margin-left: 3.25rem;
         }
         .nav-links a {
-            font-size: 1rem;
+            font-size: 1.25rem;
             /* margin-left: 1.5rem; */
         }
         #menuBtn {
@@ -59,7 +59,7 @@
             grid-gap: 2rem;
         }
             .headline .title h1 {
-                font-size: 3.5rem;
+                font-size: 4.5rem;
                 margin: 0;
             }
             .headline .title button {
@@ -67,22 +67,55 @@
                 margin-top: 3rem;
             }
 
-            aside p {
+            /* aside p {
                 line-height: 1.5;
-            }
+            } */
             
         .headline aside {
             margin: 0;
             /* margin-bottom: 2rem; */
-            /* padding: 1.5rem 1.5rem 0; */
-            padding-bottom: 0;
+            padding: 1.5rem 2rem 0;
+            /* padding-bottom: 0; */
             grid-column: 3 / 4;
             grid-row: 1 / 3;
+        }
+        .headline aside .aside-title {
+            font-size: 3.25rem;
+        }
+        .headline aside h3 {
+            font-size: 1.7rem;
+        }
+        .headline aside p {
+            font-size: 1.2rem;
+        }
+
+        .headline .title p {
+            font-size: 1.25rem;
         }
 
     .articles {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
+
+        margin-top: 2rem;
     }
+        .articles article .numb {
+            font-size: 2.6rem;
+        }
+        .articles article h2 {
+            font-size: 1.5rem;
+        }
+        .articles article p {
+            font-size: 1.25rem;
+        }
+        .articles article img {
+            height: 90%;
+        }
+
+        .articles article {
+            grid-template-columns: 2fr 5fr;
+            grid-gap: 2rem;
+            margin: 1.5rem 0;
+        }
 }

@@ -34,7 +34,7 @@ header {
         }
         .nav-links a {
             text-decoration: none;
-            color: inherit;
+            color: var(--dark-grayish-blue);
             font-size: 1.25rem;
         }
     #menuBtn {
@@ -48,10 +48,11 @@ header {
     }
     .btn {
         margin: 1.5rem 0;
-        padding: 1rem 2rem;
+        padding: 1.2rem 2.2rem;
         background-color: var(--soft-red);
         color: var(--off-white);
         font-family: Inter-Bold;
+        font-size: 1.1rem;
         letter-spacing: 5px;
     }
 
@@ -60,6 +61,7 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     padding: 1rem 0;
+    margin-bottom: 5rem;
 }
     .headline .title h1 {
         margin: 1rem 0;
