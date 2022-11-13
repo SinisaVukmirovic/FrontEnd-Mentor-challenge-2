@@ -5,13 +5,15 @@ const navLinks = document.querySelector('.nav-links');
 const openMenu = () => {
     menuBtn.classList.toggle('open');
     changeIcon();
-    
+
     navLinks.classList.toggle('open');
 }
 
 const changeIcon = () => {
     if (menuBtn.classList.contains('open')) {
-        return menuBtnIcon.setAttribute('src', './assets/images/icon-menu-close.svg');
+        setTimeout(() => {
+            return menuBtnIcon.setAttribute('src', './assets/images/icon-menu-close.svg');
+        }, 200);
     } 
     return menuBtnIcon.setAttribute('src', './assets/images/icon-menu.svg');
 }

@@ -1,23 +1,40 @@
 @media (min-width: 1440px) {
     body {
-        padding-left: 10%;
-        padding-right: 10%;
+        margin: 0 10%;
     }
 
-    #menuBtn {
-        display: none;
+    header {
+        padding: .5rem 0;
+        margin: 4rem 0 3rem;
     }
+        .logo img {
+            width: 90%;
+        }
+        .nav-links {
+            all: unset;
+            display: flex;
+        }
+        .nav-links li {
+            margin-left: 2.5rem;
+        }
+        .nav-links a {
+            font-size: 1rem;
+            /* margin-left: 1.5rem; */
+        }
+        #menuBtn {
+            display: none;
+        }
+        
 
-    .nav-links {
+    /* .nav-links {
         all: unset;
 
         display: flex;
-    }
+    } */
 
-    .nav-links li {
+    /* .nav-links li {
         margin: 0 .5rem;
-    }
-
+    } */
     
     main {
         grid-template-columns: repeat(3, 1fr);
