@@ -14,7 +14,7 @@ header {
     .nav-links {
         position: absolute;
         top: -1.5rem;
-        right: -100%;
+        right: -80%;
         /* right: -1.5rem; */
         height: 100vh;
         width: 66vw;
@@ -40,12 +40,11 @@ header {
     #menuBtn {
         z-index: 2;
         cursor: pointer;
+        width: 40px;
+        height: 40px;
 
-        /* position: absolute;
-        
-        top: 50%;
-        transform: translateY(-50%);
-        right: 0; */
+        display: grid;
+        place-items: center;
     }
     .btn {
         margin: 1.5rem 0;
