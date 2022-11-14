@@ -44,7 +44,11 @@ html, body {
 
 body {
     padding: 1rem;
+    transition: background ease-in-out 300ms;
 }
+    body.darken-bg {
+        background: var(--grayish-blue);
+    }
 
 img {
     width: 100%;
@@ -58,6 +62,19 @@ ul.nav-links {
 a {
     text-decoration: none;
     color: inherit;
+    /* transition: color ease-in-out 200ms; */
+
+}
+    a:hover, a:focus,
+    a:hover h2, a:focus h2 {
+        color: var(--soft-red);
+    }
+    a:hover h3, a:focus h3 {
+        color: var(--soft-orange);
+    }
+
+h2, h3, a {
+    transition: color ease-in-out 200ms;
 }
 
 button {
@@ -65,7 +82,11 @@ button {
     outline: none;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background ease-in-out 200ms;
 }
+    button:hover {
+        background: var(--very-dark-blue);
+    }
 
 h1 {
     font-family: 'Inter-ExtraBold';
@@ -78,12 +99,14 @@ h2 {
     font-size: 1.2rem;
     color: var(--very-dark-blue);
     margin: 1rem 0;
+    /* transition: color ease-in-out 200ms; */
 }
 
 h3 {
     font-family: Inter-Bold;
     font-size: 1.25rem;
     color: var(--off-white);
+    /* transition: color ease-in-out 200ms; */
 }
 
 p {
