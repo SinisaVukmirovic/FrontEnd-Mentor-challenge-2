@@ -47,7 +47,7 @@ body {
     transition: background ease-in-out 300ms;
 }
     body.darken-bg {
-        background: var(--grayish-blue);
+        background: var(--dark-grayish-blue);
     }
 
 img {

@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', () => {
+
 const bodyElem = document.querySelector('body');
 
 const menuBtn = bodyElem.querySelector('#menuBtn');
@@ -33,3 +35,5 @@ const changeIcon = () => {
 }
 
 menuBtn.addEventListener('click', openMenu);
+
+});

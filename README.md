@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-challenge-2)
-- Live Site URL: [Live Preview](https://your-live-site-url.com)
+- Live Site URL: [Live Preview](https://sinisavukmirovic.github.io/FrontEnd-Mentor-challenge-2/)
 
 ## My process
 
