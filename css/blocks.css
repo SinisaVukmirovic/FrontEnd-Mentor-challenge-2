@@ -61,7 +61,7 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     padding: 1rem 0;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
     .headline .title h1 {
         margin: 1rem 0;

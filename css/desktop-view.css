@@ -25,7 +25,9 @@
             display: none;
         }
         
-
+    main {
+        margin-bottom: 5rem;
+    }
     /* .nav-links {
         all: unset;
 

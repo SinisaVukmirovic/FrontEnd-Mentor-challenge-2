@@ -1,7 +1,10 @@
 const bodyElem = document.querySelector('body');
+
 const menuBtn = bodyElem.querySelector('#menuBtn');
-const menuBtnIcon = bodyElem.querySelector('img');
+const menuBtnIcon = menuBtn.querySelector('img');
+
 const navLinks = bodyElem.querySelector('.nav-links');
+
 let headlineImg = bodyElem.querySelector('.headline figure img');
 
 const headlineImages = {
