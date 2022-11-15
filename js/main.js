@@ -9,6 +9,10 @@ const headlineImages = {
     desktop: './assets/images/image-web-3-desktop.jpg'
 }
 
+if (window.innerWidth >= 1440) {
+    headlineImg.src = headlineImages.desktop;
+}
+
 const openMenu = () => {
     menuBtn.classList.toggle('open');
     bodyElem.classList.toggle('darken-bg');
@@ -26,7 +30,3 @@ const changeIcon = () => {
 }
 
 menuBtn.addEventListener('click', openMenu);
-
-if (window.innerWidth >= 1440) {
-    headlineImg.src = headlineImages.desktop;
-}
