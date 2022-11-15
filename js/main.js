@@ -1,7 +1,13 @@
-const menuBtn = document.querySelector('#menuBtn');
-const menuBtnIcon = menuBtn.querySelector('img');
 const bodyElem = document.querySelector('body');
-const navLinks = document.querySelector('.nav-links');
+const menuBtn = bodyElem.querySelector('#menuBtn');
+const menuBtnIcon = bodyElem.querySelector('img');
+const navLinks = bodyElem.querySelector('.nav-links');
+let headlineImg = bodyElem.querySelector('.headline figure img');
+
+const headlineImages = {
+    mobile: './assets/images/image-web-3-mobile.jpg',
+    desktop: './assets/images/image-web-3-desktop.jpg'
+}
 
 const openMenu = () => {
     menuBtn.classList.toggle('open');
@@ -20,3 +26,7 @@ const changeIcon = () => {
 }
 
 menuBtn.addEventListener('click', openMenu);
+
+if (window.innerWidth >= 1440) {
+    headlineImg.src = headlineImages.desktop;
+}
