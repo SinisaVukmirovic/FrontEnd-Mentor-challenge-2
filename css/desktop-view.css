@@ -1,14 +1,18 @@
 @media (min-width: 1440px) {
+    html {
+        font-size: 18px;
+    }
+
     body {
-        margin: 0 10%;
+        margin: 0 10.5%;
     }
 
     header {
-        margin: 6rem 0 2.5rem;
+        margin: 4rem 0 2.5rem;
         padding: .5rem 0;
     }
         .logo img {
-            width: 120%;
+            width: 100%;
         }
         .nav-links {
             all: unset;
@@ -18,7 +22,7 @@
             margin-left: 3.25rem;
         }
         .nav-links a {
-            font-size: 1.25rem;
+            font-size: 1.05rem;
             /* margin-left: 1.5rem; */
         }
         #menuBtn {
@@ -61,12 +65,14 @@
             grid-gap: 2rem;
         }
             .headline .title h1 {
-                font-size: 4.5rem;
+                font-size: 3.5rem;
                 margin: 0;
             }
             .headline .title button {
+                font-size: .85rem;
+                padding: 1.1rem 2rem;
                 margin-bottom: 0;
-                margin-top: 3.5rem;
+                margin-top: 2.5rem;
             }
 
             /* aside p {
@@ -82,17 +88,17 @@
             grid-row: 1 / 3;
         }
         .headline aside .aside-title {
-            font-size: 3.25rem;
+            font-size: 2.6rem;
         }
         .headline aside h3 {
-            font-size: 1.7rem;
+            font-size: 1.3rem;
         }
         .headline aside p {
-            font-size: 1.2rem;
+            /* font-size: 1.2rem; */
         }
 
         .headline .title p {
-            font-size: 1.25rem;
+            font-size: 1.05rem;
         }
 
     .articles {
@@ -100,16 +106,16 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
 
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
         .articles article .numb {
-            font-size: 2.6rem;
+            /* font-size: 2.6rem; */
         }
         .articles article h2 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
         .articles article p {
-            font-size: 1.25rem;
+            font-size: 1.05rem;
         }
         .articles article img {
             height: 90%;
