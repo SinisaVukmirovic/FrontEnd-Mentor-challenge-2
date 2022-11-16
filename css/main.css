@@ -62,16 +62,16 @@ ul.nav-links {
 a {
     text-decoration: none;
     color: inherit;
-    /* transition: color ease-in-out 200ms; */
 
 }
-    a:hover, a:focus,
     a:hover h2, a:focus h2 {
-        color: var(--soft-red);
-    }
-    a:hover h3, a:focus h3 {
         color: var(--soft-orange);
     }
+    a:hover, a:focus,
+    a:hover h3, a:focus h3 {
+        color: var(--soft-red);
+    }
+
 
 h2, h3, a {
     transition: color ease-in-out 200ms;
@@ -95,18 +95,16 @@ h1 {
 }
 
 h2 {
+    font-family: Inter-Bold;
+    font-size: 1.25rem;
+    color: var(--off-white);
+}
+
+h3 {
     font-family: Inter-ExtraBold;
     font-size: 1.2rem;
     color: var(--very-dark-blue);
     margin: 1rem 0;
-    /* transition: color ease-in-out 200ms; */
-}
-
-h3 {
-    font-family: Inter-Bold;
-    font-size: 1.25rem;
-    color: var(--off-white);
-    /* transition: color ease-in-out 200ms; */
 }
 
 p {

@@ -42,7 +42,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- JavaScript
+- JavaScript, using modules
 
 ### What I learned
 
