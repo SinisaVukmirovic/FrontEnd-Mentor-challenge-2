@@ -1,5 +1,5 @@
-import openMenu from "./openMenu.js";
 import { bodyElem } from './DOMElems.js';
+import openMenu from "./openMenu.js";
 
 let headlineImg = bodyElem.querySelector('.headline figure img');
 
